@@ -32,8 +32,8 @@ AUTH_CHANNEL = environ.get('AUTH_CHANNEL')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://fp8130:fp8130@cluster0.3j87twg.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Anurag")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://fp8130:fp8130@cluster0.pfboghv.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "fp8130")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Fenil_files')
 
 # Others
